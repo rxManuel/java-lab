@@ -43,13 +43,32 @@ Each code file is organized following a consistent structure:
 4. [`Classical Imperative perfect number`](./src/main/java/perfectnumber/imperative/Classical.java)
 5. [`Parallel prime number`](./src/main/java/primenumber/declarative/Parallel.java)
 6. [`Classical Declarative perfect number`](./src/main/java/perfectnumber/declarative/Classical.java)
-7. [`Concurrent prime number`](./src/main/java/primenumber/imperative/Concurrent.java)
+7. [`Parallel perfect number`](./src/main/java/perfectnumber/declarative/Parallel.java)
+8. [`Concurrent prime number`](./src/main/java/primenumber/imperative/Concurrent.java)
+9. [`Concurrent perfect number`](./src/main/java/perfectnumber/imperative/Concurrent.java)
 
 ### Curious about Java Streams and Functional Java Programming 
 1. [`Classical Imperative perfect number`](./src/main/java/perfectnumber/imperative/Classical.java)
 2. [`Classical Declarative prime number`](./src/main/java/primenumber/declarative/Classical.java)
 3. [`Parallel prime number`](./src/main/java/primenumber/declarative/Parallel.java)
 4. [`Classical Declarative perfect number`](./src/main/java/perfectnumber/declarative/Classical.java)
-   
+5. [`Parallel perfect number`](./src/main/java/perfectnumber/declarative/Parallel.java)
+
+## All Challenges
+### Prime Number
+   1. [`Classical Imperative prime number`](./src/main/java/primenumber/imperative/Classical.java)
+   2. [`Dynamic Imperative prime number`](./src/main/java/primenumber/imperative/Dynamic.java)
+   3. [`Concurrent prime number`](./src/main/java/primenumber/imperative/Concurrent.java)
+   4. [`Classical Declarative prime number`](./src/main/java/primenumber/declarative/Classical.java)
+   5. [`Dynamic Declarative prime number`](./src/main/java/primenumber/declarative/Dynamic.java)
+   6. [`Parallel prime number`](./src/main/java/primenumber/declarative/Parallel.java)
+
+### Perfect Number
+   1. [`Classical Imperative perfect number`](./src/main/java/perfectnumber/imperative/Classical.java)
+   2. [`Dynamic Imperative perfect number`](./src/main/java/perfectnumber/imperative/Dynamic.java)
+   3. [`Concurrent perfect number`](./src/main/java/perfectnumber/imperative/Concurrent.java)
+   4. [`Classical Declarative perfect number`](./src/main/java/perfectnumber/declarative/Classical.java)
+   5. [`Dynamic Declarative perfect number`](./src/main/java/perfectnumber/declarative/Dynamic.java)
+   6. [`Parallel perfect number`](./src/main/java/perfectnumber/declarative/Parallel.java)
 
 

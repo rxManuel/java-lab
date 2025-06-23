@@ -4,6 +4,7 @@ import org.junit.Test;
 import perfectnumber.PerfectNumberDetector;
 import perfectnumber.declarative.Classical;
 import perfectnumber.declarative.Dynamic;
+import perfectnumber.declarative.Parallel;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -37,5 +38,20 @@ public class DeclarativePerfectNumberDetectorTest {
         assertFalse(dynamic.isPerfectNumber(1));
         assertTrue(dynamic.isPerfectNumber(33550336));
         assertFalse(dynamic.isPerfectNumber(10000));
+    }
+
+    @Test
+    public void parallelIsPerfectNumber() {
+        PerfectNumberDetector parallel = new Parallel();
+        assertTrue(parallel.isPerfectNumber(6));
+        assertTrue(parallel.isPerfectNumber(28));
+        assertTrue(parallel.isPerfectNumber(496));
+        assertTrue(parallel.isPerfectNumber(8128));
+        assertFalse(parallel.isPerfectNumber(2));
+        assertFalse(parallel.isPerfectNumber(12));
+        assertFalse(parallel.isPerfectNumber(27));
+        assertFalse(parallel.isPerfectNumber(1));
+        assertTrue(parallel.isPerfectNumber(33550336));
+        assertFalse(parallel.isPerfectNumber(10000));
     }
 }

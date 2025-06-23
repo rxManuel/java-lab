@@ -3,6 +3,7 @@ package perfectNumber;
 import org.junit.Test;
 import perfectnumber.PerfectNumberDetector;
 import perfectnumber.imperative.Classical;
+import perfectnumber.imperative.Concurrent;
 import perfectnumber.imperative.Dynamic;
 
 import static org.junit.Assert.assertFalse;
@@ -38,5 +39,20 @@ public class ImperativePerfectNumberDetectorTest {
         assertFalse(dynamic.isPerfectNumber(1));
         assertTrue(dynamic.isPerfectNumber(33550336));
         assertFalse(dynamic.isPerfectNumber(10000));
+    }
+
+    @Test
+    public void concurrentIsPerfectNumber() {
+        PerfectNumberDetector concurrent = new Concurrent();
+        assertTrue(concurrent.isPerfectNumber(6));
+        assertTrue(concurrent.isPerfectNumber(28));
+        assertTrue(concurrent.isPerfectNumber(496));
+        assertTrue(concurrent.isPerfectNumber(8128));
+        assertFalse(concurrent.isPerfectNumber(2));
+        assertFalse(concurrent.isPerfectNumber(12));
+        assertFalse(concurrent.isPerfectNumber(27));
+        assertFalse(concurrent.isPerfectNumber(1));
+        assertTrue(concurrent.isPerfectNumber(33550336));
+        assertFalse(concurrent.isPerfectNumber(10000));
     }
 }

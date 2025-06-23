@@ -1,7 +1,6 @@
 package primenumber.imperative;
 
 import primenumber.PrimeNumberDetector;
-
 import java.util.ArrayList;
 import java.util.List;
 

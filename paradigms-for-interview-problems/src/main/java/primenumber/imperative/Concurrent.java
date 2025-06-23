@@ -1,10 +1,7 @@
 package primenumber.imperative;
 
 import primenumber.PrimeNumberDetector;
-
 import java.util.concurrent.atomic.AtomicBoolean;
-
-
 
 public class Concurrent implements PrimeNumberDetector {
 
